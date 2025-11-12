@@ -1,0 +1,8 @@
+{
+  "buildCommand": "cd athleteai-pro && npm run build",
+  "devCommand": "cd athleteai-pro && npm run dev",
+  "installCommand": "cd athleteai-pro && npm install",
+  "framework": "nextjs",
+  "rootDirectory": "athleteai-pro"
+}
+
