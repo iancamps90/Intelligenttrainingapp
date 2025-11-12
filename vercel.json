@@ -1,8 +1,16 @@
 {
-  "buildCommand": "cd athleteai-pro && npm install && npm run build",
-  "devCommand": "cd athleteai-pro && npm run dev",
-  "installCommand": "cd athleteai-pro && npm install",
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
   "framework": "nextjs",
-  "outputDirectory": "athleteai-pro/.next"
+  "outputDirectory": ".next",
+  "rootDirectory": "athleteai-pro",
+  "regions": ["iad1"],
+  "env": {
+    "NEXT_PUBLIC_SUPABASE_URL": "@supabase_url",
+    "NEXT_PUBLIC_SUPABASE_ANON_KEY": "@supabase_anon_key",
+    "OPENAI_API_KEY": "@openai_api_key",
+    "NEXT_PUBLIC_APP_URL": "@app_url"
+  }
 }
 
